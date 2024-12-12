@@ -8,5 +8,3 @@ const prerenderManifestJsonObject = JSON.parse(readFileSync(prerenderManifestJso
 prerenderManifestJsonObject.preview.previewModeId = '12345678901234567890'
 
 writeFileSync(prerenderManifestJsonPath, JSON.stringify(prerenderManifestJsonObject), 'utf-8')
-
-console.log(JSON.parse(readFileSync(prerenderManifestJsonPath, 'utf-8')))
