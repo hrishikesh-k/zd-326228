@@ -1,0 +1,9 @@
+{
+  "name": "zd-326228-1",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "postbuild": "node ./replace.js"
+  },
+  "type": "module"
+}

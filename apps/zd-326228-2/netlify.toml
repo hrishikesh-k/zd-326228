@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build -w=zd-326228-2"
+  publish = "./apps/zd-326228-2/.next/"
+
+[dev]
+  framework = "next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

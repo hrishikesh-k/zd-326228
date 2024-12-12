@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build -w=zd-326228-1"
+  publish = "./apps/zd-326228-1/.next/"
+
+[dev]
+  framework = "next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  force = true
+  from = "/blog/456/"
+  status = 200
+  to = "https://zd-326228.netlify.app/blog/456/"
