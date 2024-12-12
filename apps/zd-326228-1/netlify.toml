@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build -w=zd-326228-1"
+  command = "npm run build -w=zd-326228-1 && ls ./apps/zd-326228-1/.next/"
   publish = "./apps/zd-326228-1/.next/"
 
 [dev]
