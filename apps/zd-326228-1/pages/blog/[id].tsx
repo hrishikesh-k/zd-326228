@@ -25,7 +25,7 @@ export const getStaticProps = ((context) => {
   preview: boolean
 }>
 
-export default function Page(props: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function(props: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
       <p>id: {props.id}</p>
