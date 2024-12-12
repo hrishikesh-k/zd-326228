@@ -10,6 +10,6 @@
 
 [[redirects]]
   force = true
-  from = "/blog/456/"
+  from = "/blog/456"
   status = 200
-  to = "https://zd-326228-2.netlify.app/blog/456/"
+  to = "https://zd-326228-2.netlify.app/blog/456"
