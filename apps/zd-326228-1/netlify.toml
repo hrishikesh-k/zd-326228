@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build -w=zd-326228-1 && ls ./apps/zd-326228-1/.next/ && node ./replace.js"
+  command = "npm run build -w=zd-326228-1 && ls ./apps/zd-326228-1/.next/standalone/ && node ./replace.js"
   publish = "./apps/zd-326228-1/.next/"
 
 [dev]
